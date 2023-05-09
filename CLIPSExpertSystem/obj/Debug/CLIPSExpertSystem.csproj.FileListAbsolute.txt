@@ -1,0 +1,8 @@
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\bin\Debug\CLIPSExpertSystem.dll
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\bin\Debug\CLIPSExpertSystem.pdb
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\bin\Debug\CLIPSCLRWrapper.dll
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\obj\Debug\CLIPSExpertSystem.csproj.AssemblyReference.cache
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\obj\Debug\CLIPSExpertSystem.csproj.CoreCompileInputs.cache
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\obj\Debug\CLIPSExpertSystem.csproj.CopyComplete
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\obj\Debug\CLIPSExpertSystem.dll
+C:\Users\maxsh\OneDrive\Рабочий стол\Test\CLIPSExpertSystem\obj\Debug\CLIPSExpertSystem.pdb
