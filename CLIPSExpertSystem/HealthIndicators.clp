@@ -15,10 +15,6 @@
 (deftemplate MAIN::bmi_formal
    (slot formal_name))
 
-(deftemplate MAIN::training_program
-   (slot program_type)
-   (multislot exercises))
-
 (defrule MAIN::CalculateMaleBMR
    (user_profile (weight ?w) (height ?h) (age ?a) (gender male))
    =>

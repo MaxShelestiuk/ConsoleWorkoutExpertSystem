@@ -54,5 +54,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Exercises.clp" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WeeklyTrainingPlans.clp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,12 +1,14 @@
 (deftemplate MAIN::exercise
    (slot name)
    (slot target_muscle_group)
+   (slot complexity)
+   (slot priority)
    (multislot support_muscle_groups)
    (multislot equipment)
 )
 
 (deffacts MAIN::exercise_chest
-   (exercise (name Bench_Press)(target_muscle_group Chest)(support_muscle_groups Front_Delta Triceps)(equipment Bench Barbell))
+   (exercise (name Bench_Press)(target_muscle_group Chest)(complexity )(priority )(support_muscle_groups Front_Delta Triceps)(equipment Bench Barbell))
    (exercise (name Incline_Bench_Press)(target_muscle_group Chest)(support_muscle_groups Front_Delta Triceps)(equipment Incline_Bench Dumbbells))
    (exercise (name Push-Ups_With_Resistance_Band)(target_muscle_group Chest)(support_muscle_groups Front_Delta Triceps)(equipment Resistance_Band))
    (exercise (name Low_To_High_Dumbbell_Fly)(target_muscle_group Chest)(support_muscle_groups Front_Delta)(equipment Dumbbells))
