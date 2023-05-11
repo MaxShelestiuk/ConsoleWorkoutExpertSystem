@@ -5,8 +5,8 @@
    (slot height)
    (slot age)
    (slot restriction)
-   (slot day)
-   (slot target))
+   (slot available_days)
+   (slot goal))
 
 (deftemplate MAIN::health_indicator
    (slot parameterName)
@@ -14,6 +14,22 @@
 
 (deftemplate MAIN::bmi_formal
    (slot formal_name))
+
+(defrule MAIN::AgeGroupYoung
+   (user_profile (age ?a&:(>= ?a 18)&:(<= ?a 23)))
+   =>
+   (assert age_group young)
+)
+(defrule MAIN::AgeGroupModerate
+   (user_profile (age ?a&:(>= ?a 24)&:(<= ?a 45)))
+   =>
+   (assert age_group moderate)
+)
+(defrule MAIN::AgeGroupOld
+   (user_profile (age ?a&:(>= ?a 46)))
+   =>
+   (assert age_group old)
+)
 
 (defrule MAIN::CalculateMaleBMR
    (user_profile (weight ?w) (height ?h) (age ?a) (gender male))

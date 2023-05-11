@@ -19,11 +19,14 @@ namespace CLIPSConsole
 
             Console.WriteLine("Formal " + expertResponse.GetBMIFormal());
 
-            Console.WriteLine("Exercises:");
-            foreach (var exercise in expertResponse.GetExercises())
-            {
-                Console.WriteLine(exercise);
-            }
+            //Console.WriteLine("Exercises:");
+            //foreach (var exercise in expertResponse.GetExercises())
+            //{
+            //    Console.WriteLine(exercise);
+            //}
+            //Console.WriteLine(expertResponse.GetRecomendation());
+
+            Console.WriteLine(expertResponse.GetDailyPlan());
 
             Console.ReadLine();
         }
