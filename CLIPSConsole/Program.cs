@@ -26,7 +26,7 @@ namespace CLIPSConsole
             //}
             //Console.WriteLine(expertResponse.GetRecomendation());
 
-            Console.WriteLine(expertResponse.GetDailyPlan());
+            Console.WriteLine(expertResponse.GetWeekPlan());
 
             Console.ReadLine();
         }

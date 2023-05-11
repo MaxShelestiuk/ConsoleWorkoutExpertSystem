@@ -18,17 +18,17 @@
 (defrule MAIN::AgeGroupYoung
    (user_profile (age ?a&:(>= ?a 18)&:(<= ?a 23)))
    =>
-   (assert age_group young)
+   (assert (age_group Young))
 )
 (defrule MAIN::AgeGroupModerate
    (user_profile (age ?a&:(>= ?a 24)&:(<= ?a 45)))
    =>
-   (assert age_group moderate)
+   (assert (age_group Moderate))
 )
 (defrule MAIN::AgeGroupOld
    (user_profile (age ?a&:(>= ?a 46)))
    =>
-   (assert age_group old)
+   (assert (age_group Old))
 )
 
 (defrule MAIN::CalculateMaleBMR
